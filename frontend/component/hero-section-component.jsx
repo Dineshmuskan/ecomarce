@@ -23,11 +23,12 @@ export default function HeroSectionComponent() {
       >
         <SwiperSlide>
             
-            <img 
+            <img className=" h-[65vh] object-cover"
             src={sliderimageone} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={sliderimagetwo} alt="" />
+            <img className=" h-[65vh] object-cover"
+            src={sliderimagetwo} alt="" />
 
         </SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>

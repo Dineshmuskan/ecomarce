@@ -5,6 +5,9 @@ import TopNavbar from "../component/top-navbar";
 import MiddleNavbar from "../component/middle-navbar";
 import BottamNavbar from "../component/bottam-navbar";
 import HeroSectionComponent from "../component/hero-section-component";
+import FeatureCategoriesSection from "../component/feature-categories-section";
+import BannerSection from "../component/banner-section";
+
 
 
 export default function App() {
@@ -15,6 +18,8 @@ export default function App() {
       <BottamNavbar/>
       <hr className=" text-gray-200"/>
       <HeroSectionComponent/>
+      <FeatureCategoriesSection/>
+      <BannerSection/>
     </div>
   );
 }
