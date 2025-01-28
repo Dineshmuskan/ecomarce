@@ -59,7 +59,7 @@ export default function FeatureCategoriesSection() {
           {categories.map((item, index) => (
             <SwiperSlide key={index}>
               <div
-                className=" space-y-2 overflow-hidden border border-gray rounded-3xl flex flex-col items-center 
+                className=" space-y-2 overflow-hidden border border-gray rounded-2xl flex flex-col items-center 
                     justify-center hover:border-green-500 hover:shadow-amber-700  "
               >
                 <img src={item.image} alt="" height={150} width={150} />

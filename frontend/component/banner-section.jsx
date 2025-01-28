@@ -12,8 +12,8 @@ export default function BannerSection() {
         />
         <div className=" absolute top-8 left-8 ">
           <p className=" text-2xl font-semibold">Lorem ipsum dolor sit.</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-          <button>Shop Now</button>
+          <p className=" text-3xl font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+          <button className='bg-black text-white px-6 font-semibold rounded-md'>Shop Now</button>
         </div>
       </div>
 
@@ -23,9 +23,9 @@ export default function BannerSection() {
           alt="banner-two"
         />
         <div className=" absolute top-8 left-8">
-          <p className=" text-2xl font-semibold">Lorem ipsum dolor sit.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-          <button>Hello world</button>
+          <p className=" text-3xl font-semibold">Lorem ipsum dolor sit.</p>
+          <p className='font-semibold'>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+          <button className='bg-black text-white px-6 font-semibold rounded-md'>Hello world</button>
         </div>
       </div>
     </div>
