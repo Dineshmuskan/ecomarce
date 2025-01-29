@@ -19,15 +19,15 @@ export default function HeroSectionComponent() {
           dynamicBullets: true,
         }}
         modules={[Pagination]}
-        className="mySwiper w-8/12 mx-auto rounded-md "
+        className="mySwiper w-11/12 md:w-8/12 mx-auto rounded-md "
       >
         <SwiperSlide>
             
-            <img className=" h-[65vh] object-cover"
+            <img className=" md:h-[65vh] object-cover"
             src={sliderimageone} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-            <img className=" h-[65vh] object-cover"
+            <img className=" md:h-[65vh] object-cover"
             src={sliderimagetwo} alt="" />
 
         </SwiperSlide>

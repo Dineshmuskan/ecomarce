@@ -6,13 +6,16 @@ import mylogo from ".././public/logo.svg";
 
 export default function MiddleNavbar() {
   return (
-    <div className="flex justify-between w-8/12 mx-auto ">
+    <div className="flex justify-between w-11/12 md:w-8/12 mx-auto ">
       <div>
         <img src={mylogo} alt="logo" />
       </div>
-      <div className="flex gap-8">
+     
+
+     <div className="hidden md:block">
+     <div className="flex gap-8">
         <input
-          className="border  border-green500 rounded-md w-96 pl-2"
+          className="border  border-green500 rounded-md  pl-2"
           type="text"
           placeholder="search loaction"
         />
@@ -22,6 +25,7 @@ export default function MiddleNavbar() {
           loaction
         </button>
       </div>
+     </div>
       <div className="flex gap-4">
         <Heart />
         <UsersRound />

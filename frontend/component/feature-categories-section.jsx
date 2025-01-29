@@ -44,13 +44,28 @@ export default function FeatureCategoriesSection() {
   ];
 
   return (
-    <div className=" w-8/12 mx-auto space-y-8 mt-24">
+    <div className=" w-11/12 md:w-8/12 mx-auto space-y-8 mt-24">
       <p className=" text-3xl font-semibold ">Featured Categories</p>
       <div>
         <Swiper
-          slidesPerView={6}
+          slidesPerView={1}
           spaceBetween={30}
+          breakpoints={{
+            640: {
+              slidesPerView: 2,
+              
+            },
+            768: {
+              slidesPerView: 3,
+              
+            },
+            1024: {
+              slidesPerView: 4,
+              
+            },
+          }}
           pagination={{
+
             clickable: true,
           }}
           modules={[Pagination]}

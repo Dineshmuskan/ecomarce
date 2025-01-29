@@ -102,7 +102,7 @@ export default function PapularProductSection() {
   ];
 
   return (
-    <div className="w-8/12 mx-auto mt-24 space-y-8">
+    <div className=" w-10/12 md:w-8/12 mx-auto mt-24 space-y-8">
       <p className=" text-3xl font-semibold">Papular-Product</p>
 
      <div className="grid grid-ols-1 sm:grid-cols-2 md:grid-cols-3  gap-4">
